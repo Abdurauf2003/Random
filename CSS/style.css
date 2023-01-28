@@ -1,0 +1,46 @@
+body {
+    background: yellowgreen;
+}
+
+.leaf1 {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5% 25% 5% 25%;
+    border: lawngreen 5px solid;
+    width: 400px;
+    margin: 40px;
+    margin-left: 50px;
+    height: 400px;
+    background: green;
+    color: lawngreen;
+}
+
+.leaf {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 25% 5% 25% 5%;
+    border: 5px solid lawngreen;
+    height: 500px;
+    width: 500px;
+    background: lime;
+    margin-bottom: 40px;
+}
+
+a {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 30px;
+    background: green;
+    border: lawngreen 2.5px solid;
+    border-radius: 0% 10px 0% 10px;
+    color: lawngreen;
+    font-size: 1.5em;
+    font-weight: 700;
+    box-shadow: #333 5px -5px;
+}
